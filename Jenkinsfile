@@ -27,10 +27,4 @@ pipeline {
             }
         }
     }
-    post {
-        always {
-            echo 'the pipeline has ended'
-        }
-    }
-    
 }
